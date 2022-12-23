@@ -1,21 +1,28 @@
 import React from 'react';
 
-function Plus() {
+function Plus({ classname }) {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      className={classname}
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M12 4.99988V18.9999"
         stroke="white"
-        stroke-width="2"
-        stroke-linecap="square"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="square"
+        strokeLinejoin="round"
       />
       <path
         d="M5 12H19"
         stroke="white"
-        stroke-width="2"
-        stroke-linecap="square"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="square"
+        strokeLinejoin="round"
       />
     </svg>
   );

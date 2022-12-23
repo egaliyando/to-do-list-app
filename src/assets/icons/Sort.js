@@ -6,14 +6,14 @@ function Sort() {
       <path
         d="M3 9L7 5M7 5L11 9M7 5V19"
         stroke="#888888"
-        stroke-width="1.5"
-        stroke-linecap="square"
+        strokeWidth="1.5"
+        strokeLinecap="square"
       />
       <path
         d="M21 15L17 19M17 19L13 15M17 19V5"
         stroke="#888888"
-        stroke-width="1.5"
-        stroke-linecap="square"
+        strokeWidth="1.5"
+        strokeLinecap="square"
       />
     </svg>
   );
